@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: white;
+    white-space: nowrap;
+    font-family: Open Sans, Roboto, sans-serif;
+    text-align: center;
+    font-size: 2.75vh;
+}
+
+#cake {
+    height: auto;
+}
+
+.div1, .div2, .div3 {
+    height: 10%;
+    width: 8%;
+    margin: 1%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.div1 {
+    background-color: #9126B3;
+}
+
+.div2 {
+    background-color: #FFDE03;
+}
+
+.div3 {
+    background-color: #25B447;
+}
+
+.between {
+    width: 5px;
+    height: 100%;
+    position: relative;
+    right: -108%;
+    outline: 2px dashed #ff8585;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.between:hover {
+    transform: scale(2.4, 1.2);
+    cursor: pointer;
+    opacity: 1;
+    background-color: #6E7A81;
+    outline: none;
+}
+
+.betweenClicked {
+    background-color: #331832;
+    cursor: pointer;
+    position: relative;
+    right: -108%;
+    width: 5px;
+    height: 100%;
+    transform: scale(2, 1.6);
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 10px;
+	margin: 30px;
+	font-family:  Open Sans, Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px gray;
+	position: relative;
+}
+
+button:hover {
+	top: -1px;
+    box-shadow: 2px 2px 2px gray;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#testButton {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    box-shadow: 1px 1px 1px gray;
+    position: relative;
+}
+#testButton:hover {
+    top: -1px;
+    box-shadow: 2px 2px 2px gray;
+}
+#testButton:active {
+    top: 2px;
+}
+
+#answer {
+    color: darkgray;
+}

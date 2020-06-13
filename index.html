@@ -1,0 +1,40 @@
+
+<!-- 
+site to request custom google add on
+    
+site to take someone through a math lesson
+site to let someone play a browser game
+site to draw!
+calculator app
+use desmos' calculator app in a site to do something
+
+-->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>⚜️ Half Fraction King Cake ⚜️</h1>
+        <button onClick="window.location.reload();">New Cake 🎂</button>
+        <div id="cake"></div>
+        <h1>Check your slices:</h1>
+        <h2>Will
+        <select id="person">
+            <option disabled selected>Choose Person</option>
+            <option>Mr. Purple</option>
+            <option>Ms. Yellow</option>
+            <option>Ms. Green</option>
+        </select>
+        eat
+        <select id="slice">
+            <option disabled selected>Choose Slice</option>
+            <option>Slice 1</option>
+        </select>?
+        </h2>
+        <button id="testButton" onClick="edibilityCheck()">Check this Slice</button>
+        <h2 id="answer"></h2>
+
+        <script src="app.js"></script>
+    </body>
+</html>
